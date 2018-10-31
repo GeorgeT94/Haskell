@@ -33,3 +33,8 @@ bmiTell weight height
     | weight / height ^ 2 <= 25.0 = "You're supposedly normal"  
     | weight / height ^ 2 <= 30.0 = "You're fat! Lose some weight"  
     | otherwise                 = "You're a whale"  
+
+charName :: Char -> String  
+charName 'a' = "Albert"  
+charName 'b' = "Broseph"  
+charName 'c' = "Cecil"      
